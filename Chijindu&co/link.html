@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <section>
+        <table>
+
+            <caption class="cap">STUDENTS DATA</caption>
+            <tr>
+                <th>Names</th>
+                <th>Age</th>
+                <th>Contact</th>
+                <th>Address</th>
+                <th>Country</th>
+            </tr>
+    
+            <tr>
+                <td>Frank</td>
+                <td>30</td>
+                <td>09048474733</td>
+                <td>Otigba</td>
+                <td>Nigeria</td>
+            </tr>
+    
+            <tr>
+                <td>Stephen</td>
+                <td>60</td>
+                <td>08438838383</td>
+                <td>Eke</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Stephen</td>
+                <td>60</td>
+                <td>08438838383</td>
+                <td>Eke</td>
+                <td>Germany</td>
+            </tr>
+    
+            <tr>
+                <td>Emeka</td>
+                <td>60</td>
+                <td>08438838383</td>
+                <td>Eke</td>
+                <td>Germany</td>
+            </tr>
+    
+            <tr>
+                <td>Emmanuel</td>
+                <td>60</td>
+                <td>08438838383</td>
+                <td>Eke</td>
+                <td>Germany</td>
+            </tr>
+        </table> 
+    </section>
+  
+
+    <style>
+           
+           td, th{
+           border-left: 2px solid blue;
+         
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+         
+        }
+
+        td, th{
+            padding: 20px;
+        }
+
+        th{
+            
+            /* color: white; */
+            font-size: 20px;
+            text-align: start;
+        }
+
+
+        section{
+           padding: 30px;
+        }
+
+        .cap{
+            background-color: red;
+            color: white;
+            font-size: 40px;
+            padding: 20px;
+        }
+
+
+        tr:nth-child(odd){
+            background-color: gray;
+        }
+
+        tr:nth-child(even){
+            background-color: coral;
+        }
+
+        tr:nth-child(even):hover{
+            background-color: red;
+            color: white;
+        }
+
+        tr:nth-child(odd):hover{
+            background-color: purple;
+            color: white;
+            border: 5px solid yellow;
+        }
+    </style>
+</body>
+</html>

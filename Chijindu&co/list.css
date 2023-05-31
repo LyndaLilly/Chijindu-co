@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: blue; */
+}
+
+/* ul{
+    background-color: purple;
+    list-style-position: inside;
+    margin: 30px;
+    padding: 20px;
+    color: white;
+} */
+
+/* .ul{
+    list-style-position: inside;
+    background-color: red !important;
+    width: 50%;
+    margin: 30px;
+    padding: 20px;
+    font-size: 2em;
+    font-size: 20px;
+} 
+
+
+#li{
+    color: blue;
+}
+
+.div1 p{
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.div2 > p{
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.div3 + p{
+    background-color: black;
+    color: orchid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.div4 ~ p{
+    background-color: black;
+    color: tomato;
+    padding: 10px;
+    margin-bottom: 20px;
+} */
+
+a{
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+/* a:link{
+    color: black;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:active{
+    color: blue;
+}
+
+a:hover{
+    background-color: black;
+    color: yellow;
+}
+
+h1{
+    cursor: pointer;
+} */
+/* 
+p{
+    background-color: red;
+    color: white;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    left: 20px;
+    top: 35px; 
+    animation-name: tooltip;
+    animation-duration: 2s;
+    animation-name: tool;
+    animation-duration: 2s;
+} */
+
+.div5:hover p{
+    display: block;
+}
+
+/* @keyframes tooltip {
+    0%{top: -100px;}
+    100%{top: 35px;}
+} */
+
+/* @keyframes tool {
+    0%{left: -200px;}
+    100%{left: 20px;}
+} */
+
+/* p:first-child{
+    color: orange;
+    font-size: 30px;
+}
+
+p:nth-child(2){
+    color: orange;
+    font-size: 30px;
+} */
+
+/* h2::first-line{
+    color: red;
+}
+
+h2::first-letter{
+    color: blue;
+} */
+
+h2:before {
+  content: 'GOD ';
+ 
+  
+}
+
+h2:after {
+  content: ' ALL THE TIME';
+
+}
+
+.div6{
+    height: 200px;
+    width: 500px;
+    background-color: red;
+    position: relative;
+}
+
+.div6:before {
+  content: '';
+  position: absolute;
+  background-color: blue;
+  width: 300px;
+  height: 100px;
+   top: 20px;
+  left: 20px; 
+  
+  
+}
+
+.div6:after {
+    content: '';
+    position: absolute;
+    background-color: orange;
+    width: 300px;
+    height: 100px;
+    bottom: 0;
+    
+    
+  }
+
+  ::selection{
+    background-color: black;
+    color: yellow;
+  }
+
+
+/* a[target]{
+    color: red;
+} */
+
+/* a[target="_blank"]{
+    color: black;
+}
+
+[class |=top]{
+    color: blue;
+} */
+
+/* [class^="top"]{
+    color: orange;
+} */
+
+/* [class$="test"]{
+    background-color: yellow;
+   
+} */
+
+/* [class*="se"]{
+    color: orchid;
+} */
+
+.div7{
+    background-color: aqua;
+    padding: 40px;
+    /* margin: 50px; */
+}
+
+section{
+    background-color: red;
+    padding: 50px;
+}
